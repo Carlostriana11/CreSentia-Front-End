@@ -6,23 +6,28 @@ nav{
     background-color: #ececec;
 }
 .Logo{
-    max-width: 5rem;
+    /* max-width: 5rem; */
+    width: 11rem;
+    height: 4rem;
+    object-fit: fill;
 }
 
 .nav-list{
     list-style-type: none;
     display: flex;
     gap: 1rem;
+    margin-top: 1rem;
 }
 .nav-list li a{
     text-decoration: none;
     color: #1c1c1c;
     margin: 0 3rem;
     transition: color .4 ease;
+    font-size: 1.5rem;
 }
 .nav-list li a:hover{
     padding: 1.9rem 1rem;
-    background:#1c1c1c;
+    background:#dcb5dd;
     color: #ececec;
     border-radius: 16px;
 }

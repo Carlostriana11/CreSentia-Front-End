@@ -1,0 +1,89 @@
+section{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.cart{
+    height: 538px;
+    width: 400px;
+    margin: 2rem;
+    box-shadow: 5px 161px 40px #c6a4c6;
+
+}
+.logo-img{
+    width: 70%;
+    display: block;
+    margin: 1.2rem auto;
+}
+.container{
+    /* background-color: rgb(201 244 230); */
+    height: 100%;
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.foto-img{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 100%; 
+}
+.title{
+    /* border: 1px solid black; */
+    text-align: center;
+    margin: 1rem 0 ;
+    
+}
+.title h3{
+    font-size: 2rem;
+    margin: 0 5rem;
+}
+.parrafo-relleno{
+    margin: 0 5rem .9rem 5rem;
+    text-align: center;
+}
+.parrafo-clave{
+    margin: 0 5rem;
+    font-weight: 900;
+    font-size: 14px;
+}
+.parrafo-final p{
+    font-weight: 900;
+    font-size: 14px;
+    margin: 0 5rem;
+    text-align: center;
+}
+.container-button{
+    border: .2px solid black;
+    height: 3rem;
+    width:8rem;
+    padding: 1rem;
+    display: block;
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border-radius: 7px;
+}
+.container-button:hover{
+    background: #c6a4c6;
+    color: white;
+}
+.container-button a{
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    color: black;
+    cursor: pointer;
+}
+.container-button a:hover{
+    color: white;
+}

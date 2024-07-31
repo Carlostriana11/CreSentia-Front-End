@@ -1,1 +1,28 @@
-<p>cart works!</p>
+<section>
+    <div class="cart">
+        <div class="logo">
+            <img class="logo-img" [src]="logoSrc" alt="logo">
+        </div>
+        <div class="container" [ngStyle]="{'background-color': containerBackgroundColor}">
+            <div class="img">
+            <img class="foto-img" [src]="fotoSrc" alt="foto">
+            </div>
+            <div class="title">
+            <h3>{{ title }}</h3>
+            </div>
+        <div class="parrafo">
+            <p class="parrafo-clave">{{ parrafoClave }}</p>
+            <p class="parrafo-relleno">{{ parrafoRelleno }}</p>
+        </div>
+        <div class="parrafo-final">
+            <p>{{ parrafoFinal }}</p>
+        </div>
+        <div class=" container-button">
+            <a [routerLink]="url" class="link-button">
+                {{ text }}
+            </a>
+        </div>
+        </div>
+    </div>
+    
+</section>
